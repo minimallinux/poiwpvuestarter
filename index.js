@@ -7,6 +7,7 @@ import App from "./App";
 Vue.use(axios);
 const vm = new Vue({
 el: '#app',
+ router,
  render: h => h(App)
 }); 
 export const HTTP = axios.create({

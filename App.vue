@@ -1,13 +1,9 @@
 <template>
   <div id="app">
-    <h2>Hello {{msg}}</h2>
+    <div id="nav">
+      <router-link to="/">Home</router-link> |
+      <router-link to="/about">About</router-link>
+    </div>
+    <router-view/>
   </div>
 </template>
-
-<script>
-export default {
-  data() {
-    return { msg: 'Lets try a few http requests!' }
-  }
-}
-</script>
