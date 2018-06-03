@@ -1,0 +1,20 @@
+import Vue from "vue";
+import axios from 'axios';
+import router from './router'
+import App from "./components/App";
+
+
+Vue.use(axios);
+const vm = new Vue({
+el: '#app',
+ render: h => h(App)
+}); 
+export const HTTP = axios.create({
+  //http://jsonplaceholder.typicode.com/
+  baseURL: `https://webmobapps.com/wp-json`,
+  //leave below for later
+  //headers: {
+   // Authorization: 'Bearer {token}'
+  //}
+})
+ 

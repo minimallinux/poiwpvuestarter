@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "axios": "^0.18.0",
+    "poi": "^10.2.1",
+    "vue-router": "^3.0.1"
+  },
+  "scripts": {
+    "start": "poi index.js",
+    "build": "poi build index.js"
+  }
+}
