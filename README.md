@@ -23,7 +23,7 @@ $ yarn   to get all the packages
 
 Then
 
-$ npm start
+$ npm start  (it runs poi index.js)
 
 To show project at http://localhost:4000
 
