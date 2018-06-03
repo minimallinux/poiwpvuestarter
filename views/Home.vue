@@ -7,6 +7,9 @@
 import App from '../App'
 export default {
   name: 'home',
+  head: {
+    title: 'Home - My Website'
+  },
   components: {
     App
   },

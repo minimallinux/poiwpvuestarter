@@ -9,9 +9,11 @@
 </template>
 <script>
 import App from '../App'
-
 export default {
   name: 'about',
+  head: {
+    title: 'About - My Website'
+  },
   components: {
     App
   },

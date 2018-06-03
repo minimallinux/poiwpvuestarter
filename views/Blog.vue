@@ -12,6 +12,9 @@ import App from '../App'
 
 export default {
   name: 'blog',
+  head: {
+    title: 'Blog - My Website'
+  },
   components: {
     App
   },

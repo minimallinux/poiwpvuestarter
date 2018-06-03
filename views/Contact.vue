@@ -9,9 +9,11 @@
 </template>
 <script>
 import App from '../App'
-
 export default {
   name: 'contact',
+  head: {
+    title: 'Contact - My Website'
+  },
   components: {
     App
   },

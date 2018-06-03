@@ -18,4 +18,6 @@ export const HTTP = axios.create({
    // Authorization: 'Bearer {token}'
   //}
 })
+// Export the Vue instance
+export default app
  
