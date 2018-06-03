@@ -27,3 +27,5 @@ $ npm start
 
 To show project at http://localhost:4000
 
+Using the Poi server (still webpack)
+
